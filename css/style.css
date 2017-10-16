@@ -1,0 +1,122 @@
+h1 {
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Inconsolata", monospace;
+}
+
+code {
+	color: #A40000FF;
+	background-color: #D3D7CFFF;
+}
+
+footer {
+	text-align: center;
+}
+
+#name {
+	display: inline-block;
+	padding: 0;
+}
+
+#institution {
+	display: inline-block;
+	padding: 0;
+	background-color: #F9A91A;
+}
+
+#cancha {
+	width: 1000px;
+	height: 500px;
+	position: relative;
+}
+
+.pasto {
+	width: 1000px;
+	height: 499px;
+	position: absolute;
+	background-color: #8cb27c;
+}
+
+.borde {
+	width: 950px;
+	height: 450px;
+	border: 5px solid white;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.arco-uno {
+	width: 105px;
+	height: 185px;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	border-right: 5px solid white;
+	position: absolute;
+	left: 0;
+	top: 120px;
+}
+
+.arco-dos {
+	width: 105px;
+	height: 185px;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	border-left: 5px solid white;
+	position: absolute;
+	right: 0;
+	top: 120px;
+}
+
+.centro {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 5px solid white;
+	margin: auto;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+div img {
+	position: absolute;
+}
+
+.bola-uno {
+	top: 123px;
+	left: 90px;
+}
+
+.bola-dos {
+	top: 50px;
+	left: 470px;
+}
+
+.bola-tres {
+	top: 270px;
+	right: 115px;
+}
+
+/* #cancha {
+	width: 950px;
+	height: 449px;
+	background-color: #8cb27c;
+	border: 5px solid white;
+	outline: solid 17px #8cb27c;
+	margin: 25px;
+	padding: 0;
+	left: 0;
+	position: fixed;
+	float: left;
+	clear: left;
+} */
